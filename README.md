@@ -1,4 +1,4 @@
-# palmer-penguins-shiny-dashboard
+# Palmer Penguins Dashboard Explorer
 
 **PPDE (Palmer Penguins Dashboard Explorer)** is an interactive R Shiny dashboard for exploring the Palmer Penguins dataset through a CRISP-DM-inspired workflow.
 
@@ -9,11 +9,11 @@ The repository combines a compact teaching example with a more complete explorat
 ```text
 .
 ├── README.Rmd
-├── shiny-quick-start.Rmd
+├── pp-quick-start.Rmd
 └── ppde.R
 ```
 
-### `shiny-quick-start.Rmd`
+### `pp-quick-start.Rmd`
 
 A step-by-step introduction to R Shiny designed for classroom use.
 
@@ -166,6 +166,17 @@ The repository can be used to:
 This repository contains material prepared for teaching and demonstration purposes.
 
 The dashboard may be extended in the future with additional data-cleaning operations, modelling methods, deployment options and reusable modules.
+
+### Live demo
+
+A live deployment is available on shinyapps.io:
+
+[Open PPDE](https://magt.shinyapps.io/ppde/)
+
+If the service is temporarily unavailable, run the application locally:
+
+```r
+shiny::runApp("app.R")
 
 ## Licence
 
