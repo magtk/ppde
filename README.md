@@ -175,9 +175,9 @@ A live deployment is available on shinyapps.io:
 
 If the service is temporarily unavailable, run the application locally:
 
-```r
+```
 shiny::runApp("app.R")
-
+```
 ## Licence
 
 This project is shared under the:
